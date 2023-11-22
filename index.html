@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modular</title>
+  <!-- link favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- link reset css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <!-- embed font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Public+Sans:wght@500;600;800&display=swap"
+    rel="stylesheet">
+  <!-- link css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- link awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header fixed">
+    <div class="container">
+      <nav class="body">
+        <!-- logo brand -->
+        <img src="./assets/img/logo.svg" alt="logo brand">
+        <!-- navigation -->
+        <ul class="nav">
+          <li><a class="nav__link active" href="#!">Home</a></li>
+          <li><a class="nav__link" href="#!">About</a></li>
+          <li><a class="nav__link" href="#!">Blog</a></li>
+          <li><a class="nav__link" href="#!">Contact</a></li>
+        </ul>
+        <!-- action -->
+        <a href="#!" class="btn btn__sign-up">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="header__hr"></div>
+        <div class="body">
+          <div class="hero__content">
+            <h1 class="hero__title">We’re a creative design agency.</h1>
+            <p class="hero__desc">A brilliant, modular agency template for startup’s build yours toady.</p>
+            <div class="hero__actions">
+              <a href="#!" class="btn btn__hero">Get in touch</a>
+              <a href="#!" class="btn__watch-video">
+                <div class="half-circle-border">
+                  <div class="play-btn">
+                    <svg class="play-icon" width="8" height="10" viewBox="0 0 8 10" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.48979 4.22586C8.15106 4.61996 8.13773 5.58212 7.4658 5.95775L1.49682 9.29454C0.824887 9.67017 -0.00170366 9.17755 0.00896126 8.40782L0.103701 1.57014C0.114366 0.800411 0.954284 0.330874 1.61555 0.724974L7.48979 4.22586Z"
+                        fill="currentColor" />
+                    </svg>
+                  </div>
+                </div>
+                <span>Watch Video</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero__banner">
+            <img src="./assets/img/hero/banner_2.webp" alt="banner 1" class="hero__banner--img">
+            <img src="./assets/img/hero/banner_1.jpg" alt="banner 2" class="hero__banner--img">
+            <img src="./assets/img/hero/banner_3.jpg" alt="banner 3" class="hero__banner--img">
+            <div class="blur__banner"></div>
+            <div class="flowers__banner">
+              <svg xmlns="http://www.w3.org/2000/svg" width="79" height="79" viewBox="0 0 79 79" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M37.3247 75.1942L34.3377 74.9149L36.8635 47.9007C36.464 47.7903 36.0773 47.652 35.7053 47.488L20.5869 68.6073L18.1475 66.861L33.2173 45.8096C32.8941 45.4956 32.5963 45.1566 32.3268 44.7961L8.37845 56.4178L7.06868 53.7188L30.9814 42.1143C30.7673 41.3892 30.648 40.6266 30.6366 39.8422L3.70411 36.9753L4.02167 33.9922L31.1198 36.8767C31.2826 36.4147 31.4837 35.9723 31.7191 35.5527L9.20758 19.8836L10.9214 17.4214L33.6336 33.2302C33.9808 32.9353 34.3515 32.6683 34.742 32.432L22.2741 7.19443L24.9638 5.86567L37.5558 31.3546C37.8401 31.301 38.1289 31.2616 38.4214 31.2373L41.0402 3.22759L44.0272 3.50686L41.4084 31.5165C41.9672 31.6708 42.5012 31.8799 43.0046 32.1374L60.0575 8.31574L62.4969 10.062L45.393 33.955C45.636 34.2194 45.8622 34.499 46.0702 34.792L71.8442 22.2843L73.154 24.9833L47.3484 37.5063C47.4465 37.8718 47.5206 38.2462 47.5691 38.6277L75.6172 41.6134L75.2996 44.5965L47.4176 41.6285C47.3394 41.968 47.2411 42.299 47.1242 42.6203L70.0156 58.5538L68.3018 61.0161L45.6081 45.2202C45.3603 45.5107 45.0934 45.784 44.8098 46.0381L56.854 70.4181L54.1643 71.7468L42.2458 47.6214C41.4906 47.9189 40.6855 48.1106 39.8504 48.18L37.3247 75.1942Z"
+                  fill="#83A17D" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="79" height="79" viewBox="0 0 79 79" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M37.3247 75.1942L34.3377 74.9149L36.8635 47.9007C36.464 47.7903 36.0773 47.652 35.7053 47.488L20.5869 68.6073L18.1475 66.861L33.2173 45.8096C32.8941 45.4956 32.5963 45.1566 32.3268 44.7961L8.37845 56.4178L7.06868 53.7188L30.9814 42.1143C30.7673 41.3892 30.648 40.6266 30.6366 39.8422L3.70411 36.9753L4.02167 33.9922L31.1198 36.8767C31.2826 36.4147 31.4837 35.9723 31.7191 35.5527L9.20758 19.8836L10.9214 17.4214L33.6336 33.2302C33.9808 32.9353 34.3515 32.6683 34.742 32.432L22.2741 7.19443L24.9638 5.86567L37.5558 31.3546C37.8401 31.301 38.1289 31.2616 38.4214 31.2373L41.0402 3.22759L44.0272 3.50686L41.4084 31.5165C41.9672 31.6708 42.5012 31.8799 43.0046 32.1374L60.0575 8.31574L62.4969 10.062L45.393 33.955C45.636 34.2194 45.8622 34.499 46.0702 34.792L71.8442 22.2843L73.154 24.9833L47.3484 37.5063C47.4465 37.8718 47.5206 38.2462 47.5691 38.6277L75.6172 41.6134L75.2996 44.5965L47.4176 41.6285C47.3394 41.968 47.2411 42.299 47.1242 42.6203L70.0156 58.5538L68.3018 61.0161L45.6081 45.2202C45.3603 45.5107 45.0934 45.784 44.8098 46.0381L56.854 70.4181L54.1643 71.7468L42.2458 47.6214C41.4906 47.9189 40.6855 48.1106 39.8504 48.18L37.3247 75.1942Z"
+                  fill="#83A17D" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="547" height="363" viewBox="0 0 547 363" fill="none">
+                <path
+                  d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
+                  stroke="url(#paint0_linear_0_317)" />
+                <defs>
+                  <linearGradient id="paint0_linear_0_317" x1="-103" y1="-56.0001" x2="486" y2="313"
+                    gradientUnits="userSpaceOnUse">
+                    <stop />
+                    <stop offset="0.553176" stop-color="white" />
+                    <stop offset="1" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="547" height="363" viewBox="0 0 547 363" fill="none">
+                <path
+                  d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
+                  stroke="url(#paint0_linear_0_317)" />
+                <defs>
+                  <linearGradient id="paint0_linear_0_317" x1="-103" y1="-56.0001" x2="486" y2="313"
+                    gradientUnits="userSpaceOnUse">
+                    <stop />
+                    <stop offset="0.553176" stop-color="white" />
+                    <stop offset="1" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- logo -->
+    <section class="logo">
+      <div class="container">
+        <div class="body">
+          <p class="logo__cooperate"><img src="./assets/img/logo/Google.svg" alt="google"></p>
+          <p class="logo__cooperate"><img src="./assets/img/logo/slack.svg" alt="slack"></p>
+          <p class="logo__cooperate"><img src="./assets/img/logo/agworld.svg" alt="world"> <span>Agworld</span></p>
+          <p class="logo__cooperate"><img src="./assets/img/logo/RioTinto.svg" alt="RioTinto"></p>
+          <p class="logo__cooperate"><img src="./assets/img/logo/heroku.svg" alt="heroku"></p>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="services">
+      <div class="container">
+        <div class="body">
+          <p class="services__sub-title">OUR SERVICES</p>
+          <div class="services__header">
+            <h2 class="services__title">We offer a wide range of design services</h2>
+            <div class="pagination">
+              <a href="#!" class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="13" viewBox="0 0 22 13" fill="none">
+                  <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#!" class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12" fill="none">
+                  <path d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11" stroke="currentColor"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- services list -->
+          <div class="services__list">
+            <!-- services item -->
+            <article class="services__card">
+              <div class="services__card-img">
+                <img src="./assets/img/services/services_1.avif" alt="services 1" />
+              </div>
+              <div class="services__card-info">
+                <h3 class="services__card-title">Branding</h3>
+                <p class="services__card-desc">
+                  Create beautiful Agency website with
+                  Boluethat converts more visitors than
+                  any website.
+                </p>
+              </div>
+            </article>
+            <!-- services item -->
+            <article class="services__card">
+              <div class="services__card-img">
+                <img src="./assets/img/services/services_2.avif" alt="services 2" />
+              </div>
+              <div class="services__card-info">
+                <h3 class="services__card-title">Web Design</h3>
+                <p class="services__card-desc">
+                  Create beautiful Agency website with
+                  Boluethat converts more visitors than
+                  any website.
+                </p>
+              </div>
+            </article>
+            <!-- services item -->
+            <article class="services__card">
+              <div class="services__card-img">
+                <img src="./assets/img/services/services_3.avif" alt="services 3" />
+              </div>
+              <div class="services__card-info">
+                <h3 class="services__card-title">Graphic Design</h3>
+                <p class="services__card-desc">
+                  Create beautiful Agency website with
+                  Boluethat converts more visitors than
+                  any website.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about">
+      <div class="container">
+        <div class="body">
+          <div class="about__banner">
+            <img src="./assets/img/about/banner_1.avif" alt="banner 1" class="about__banner--img">
+            <img src="./assets/img/about/banner_2.avif" alt="banner 2" class="about__banner--img">
+            <div class="about__flowers">
+              <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M40.7679 73.7412L37.7721 73.899L36.3451 46.8046C35.9339 46.7535 35.5312 46.6728 35.1394 46.5647L23.2508 69.6569L20.5836 68.2837L32.4339 45.2659C32.0684 45.0022 31.7243 44.7099 31.4051 44.3923L9.40032 59.3708L7.71222 56.8908L29.6843 41.9346C29.3671 41.2483 29.1382 40.511 29.0129 39.7367L1.95012 40.8142L1.83077 37.8166L29.06 36.7325C29.1539 36.2516 29.2887 35.7845 29.4606 35.3351L4.91138 23.104L6.24921 20.4189L31.0174 32.759C31.3181 32.4168 31.646 32.0987 31.998 31.8082L15.9949 8.6507L18.4629 6.94516L34.6255 30.3335C34.899 30.2391 35.179 30.1582 35.4649 30.0916L33.9853 1.99864L36.9811 1.84086L38.4607 29.9338C39.0361 30.0053 39.5948 30.1347 40.1304 30.3163L53.5403 4.26921L56.2076 5.64241L42.7575 31.7677C43.0362 31.9939 43.3006 32.2376 43.5488 32.4972L67.2318 16.3763L68.9199 18.8563L45.2079 34.9969C45.358 35.3442 45.4857 35.704 45.5892 36.0743L73.7738 34.9521L73.8931 37.9498L45.8754 39.0653C45.8473 39.4124 45.7982 39.754 45.7293 40.0888L70.6937 52.5266L69.3559 55.2118L44.6072 42.8814C44.4042 43.2049 44.18 43.514 43.9363 43.8067L59.3958 66.1777L56.9278 67.8833L41.6297 45.7459C40.9258 46.15 40.157 46.4567 39.3409 46.6468L40.7679 73.7412Z"
+                  fill="#83A17D" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="461" height="425" viewBox="0 0 461 425" fill="none">
+                <path
+                  d="M460.801 424.491C427.499 418.557 369.615 388.251 404.496 314.498C448.099 222.306 442.937 218.074 309.647 169.723C176.358 121.373 159 52.0001 198.749 19.2986C232.544 -8.50494 326.949 8.60296 295.548 96.3573C264.146 184.112 54.9333 169.971 0.657194 0.99129"
+                  stroke="url(#paint0_linear_0_229)" />
+                <defs>
+                  <linearGradient id="paint0_linear_0_229" x1="-77.1063" y1="-124.593" x2="416.003" y2="360.906"
+                    gradientUnits="userSpaceOnUse">
+                    <stop />
+                    <stop offset="0.553176" stop-color="white" />
+                    <stop offset="1" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="about__total_balance">
+              <p class="balance__title">All Desingners</p>
+              <p class="balance__desc">All Desingners</p>
+              <div class="balance__percent">40%</div>
+              <p class="balance__loading">Loading...</p>
+              <div class="balance__dot"></div>
+              <div class="balance__team">
+                <p>Teams:</p>
+                <div class="teams">
+                  <img src="./assets/img/about/avatar_1.avif" alt="avatar 1" class="team__avatar">
+                  <img src="./assets/img/about/avatar_2.avif" alt="avatar 2" class="team__avatar">
+                  <img src="./assets/img/about/avatar_3.avif" alt="avatar 3" class="team__avatar">
+                  <img src="./assets/img/about/avatar_4.avif" alt="avatar 4" class="team__avatar">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about__content">
+            <p class="about__sub-title">ABOUT US</p>
+            <h2 class="about__title">We are an extention of your creative team</h2>
+            <p class="about__desc">
+              At the start of every project, we cusomizea detailed project plan together with you
+              set exectationns ensure alighment and define key milestones and deiverbles.
+            </p>
+            <div class="about__content__block">
+              <article class="about__block--item">
+                <p class="number">48%</p>
+                <p class="block__content">
+                  Are you strive for two things in design simplicity and clarity. Great design
+                  is born of those two things
+                </p>
+              </article>
+              <article class="about__block--item">
+                <p class="number">26%</p>
+                <p class="block__content">
+                  Are you strive for two things in design simplicity and clarity. Great design
+                  is born of those two things
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- process -->
+    <section class="process">
+      <div class="container">
+        <div class="body">
+          <p class="process__sub-title">OUR PROCESS</p>
+          <h2 class="process__title">A simple ,yet effective three step process</h2>
+          <!-- process list -->
+          <div class="process__list">
+            <!-- process item -->
+            <article class="process__item">
+              <p class="process__item--no">01.</p>
+              <div class="process__block">
+                <h3 class="process__item--title">Project idea</h3>
+                <a href="#!" class="process__link">Learn More</a>
+              </div>
+              <img src="./assets/img/process/man.svg" alt="man">
+            </article>
+            <!-- process item -->
+            <article class="process__item">
+              <p class="process__item--no">02.</p>
+              <div class="process__block">
+                <h3 class="process__item--title">Brainstormaing</h3>
+                <a href="#!" class="process__link">Learn More</a>
+              </div>
+              <p class="process__desc">
+                We customse a ensure aligment and difine key mileones and defiverables experience
+                tells us the best solutions are the ones deated with clients.
+              </p>
+            </article>
+            <!-- process item -->
+            <article class="process__item">
+              <p class="process__item--no">03.</p>
+              <div class="process__block">
+                <h3 class="process__item--title">Execution</h3>
+                <a href="#!" class="process__link">Learn More</a>
+              </div>
+              <p class="process__desc">
+                We customse a ensure aligment and difine key mileones and defiverables experience
+                tells us the best solutions are the ones deated with clients.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features -->
+    <section class="features">
+      <div class="container">
+        <div class="body">
+          <div class="feature__header">
+            <h2 class="features__title">A quick glance of our past projects</h2>
+            <div class="feature__more">
+              <p class="feature__desc">Are you strive for the fast project simplicity and clarity. Great
+                design is born of those two things.
+              </p>
+              <a href="#!" class="show__projects">
+                <span>Browse all Projects</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12" fill="none">
+                  <path d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11" stroke="currentColor"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="feature__video">
+            <img src="./assets/img/features/video.avif" alt="video" class="video">
+            <div class="video__play">
+              <img src="./assets/img/features/play.svg" alt="play" class="play">
+            </div>
+            <svg class="flowers" xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76"
+              fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M40.7679 73.7412L37.7721 73.899L36.3451 46.8046C35.9339 46.7535 35.5312 46.6728 35.1394 46.5647L23.2508 69.6569L20.5835 68.2837L32.4339 45.2659C32.0684 45.0022 31.7244 44.71 31.4052 44.3923L9.40032 59.3708L7.71222 56.8909L29.6844 41.9346C29.3671 41.2483 29.1381 40.511 29.0129 39.7366L1.95012 40.8142L1.83077 37.8165L29.06 36.7324C29.1539 36.2515 29.2887 35.7844 29.4606 35.3351L4.91138 23.104L6.2492 20.4189L31.0174 32.759C31.3181 32.4168 31.646 32.0987 31.998 31.8082L15.9949 8.6507L18.4629 6.94516L34.6255 30.3335C34.899 30.2391 35.179 30.1582 35.4649 30.0916L33.9853 1.99864L36.9811 1.84086L38.4607 29.9338C39.0361 30.0053 39.5948 30.1347 40.1304 30.3163L53.5403 4.26921L56.2076 5.64241L42.7574 31.7677C43.0362 31.9939 43.3006 32.2376 43.5488 32.4972L67.2318 16.3764L68.9199 18.8564L45.2079 34.9969C45.358 35.3443 45.4857 35.7039 45.5892 36.0743L73.7738 34.9521L73.8931 37.9497L45.8754 39.0653C45.8473 39.4123 45.7982 39.754 45.7293 40.0888L70.6937 52.5266L69.3559 55.2118L44.6072 42.8814C44.4042 43.2049 44.18 43.514 43.9363 43.8067L59.3958 66.1777L56.9278 67.8833L41.6297 45.7459C40.9258 46.15 40.157 46.4567 39.3409 46.6468L40.7679 73.7412Z"
+                fill="#83A17D" />
+            </svg>
+            <svg class="tree" xmlns="http://www.w3.org/2000/svg" width="415" height="472" viewBox="0 0 415 472"
+              fill="none">
+              <path
+                d="M1.08698 1.03818C6.27459 34.4648 35.2785 93.0123 109.793 59.789C202.937 18.2599 207.053 23.5152 252.41 157.853C297.767 292.19 366.734 311.095 400.317 272.088C428.869 238.923 413.877 144.159 325.442 173.59C237.007 203.021 246.465 412.497 414.188 470.54"
+                stroke="url(#paint0_linear_0_156)" />
+              <defs>
+                <linearGradient id="paint0_linear_0_156" x1="538.003" y1="551.093" x2="63.6537" y2="47.2476"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.203415" stop-color="#143C3C" />
+                  <stop offset="0.553176" stop-color="white" />
+                  <stop offset="1" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service feature -->
+    <section class="service__features">
+      <div class="container">
+        <div class="body">
+          <h2 class="service__f--title">Share the features that help your customers</h2>
+          <p class="service__f--desc">
+            You already know that the customer experience doesn't end with a sale — it's an
+            ongoing work in progress that companies should be constantly seeking to improve and iterate on.
+          </p>
+          <!-- service feature list -->
+          <div class="service__f--list">
+            <!-- service feature item -->
+            <article class="service__f--item">
+              <div>
+                <img src="./assets/img/service_features/icon_blog.svg" alt="blog" class="service__item-f-img">
+                <h3 class="service__item-f-title">Blog</h3>
+                <p class="service__item-f-desc">
+                  We’ve researched numerous agencies and complied a list of digital
+                  marketing
+                  agency blogs you should read to stay ahead of your rivals and succeed online!
+                </p>
+              </div>
+            </article>
+            <!-- service feature item -->
+            <article class="service__f--item">
+              <div>
+                <img src="./assets/img/service_features/icon_document.svg" alt="blog" class="service__item-f-img">
+                <h3 class="service__item-f-title">Documentation</h3>
+                <p class="service__item-f-desc">
+                  In this article, we discuss the different types of documentation, what makes for great technical
+                  documentation, and provide examples.
+                </p>
+              </div>
+            </article>
+            <!-- service feature item -->
+            <article class="service__f--item">
+              <div>
+                <img src="./assets/img/service_features/icon_customers.svg" alt="blog" class="service__item-f-img">
+                <h3 class="service__item-f-title">Customers</h3>
+                <p class="service__item-f-desc">
+                  Your customers have high expectations — and if your business can't meet them, they're going to leave
+                  you for your competitors.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog -->
+    <section class="blog">
+      <div class="container">
+        <div class="body">
+          <p class="blog__sub-title">BLOG & ARTICLES</p>
+          <div class="blog__header">
+            <h2 class="blog__title">Take a look at our latest articles and resources</h2>
+            <p class="blog__desc">
+              The best agency are the ones ideated with clients. we corporate your ideas with
+              memorable
+            </p>
+          </div>
+          <!-- blog list -->
+          <div class="blog__list">
+            <!-- blog item -->
+            <article class="blog__item">
+              <div class="blog__item--image">
+                <img src="./assets/img/blog/blog_1.avif" alt="blog 1" class="blog__thumbnail">
+              </div>
+              <div class="blog__item--info">
+                <a href="#!" class="btn btn__blog--item">STORIES</a>
+                <p class="blog__item--desc">What did we learn from nunning over 100 design sprints in less the year?</p>
+                <p class="blog__date">JANUARY 29, 2022</p>
+              </div>
+            </article>
+            <!-- blog item -->
+            <article class="blog__item">
+              <div class="blog__item--image">
+                <img src="./assets/img/blog/blog_2.avif" alt="blog 2" class="blog__thumbnail">
+              </div>
+              <div class="blog__item--info">
+                <a href="#!" class="btn btn__blog--item">STORIES</a>
+                <p class="blog__item--desc">The difference between the UI/UX design a simple guide for beginner’s</p>
+                <p class="blog__date">JANUARY 29, 2022</p>
+              </div>
+            </article>
+            <!-- blog item -->
+            <article class="blog__item">
+              <div class="blog__item--image">
+                <img src="./assets/img/blog/blog_3.avif" alt="blog 3" class="blog__thumbnail">
+              </div>
+              <div class="blog__item--info">
+                <a href="#!" class="btn btn__blog--item">STORIES</a>
+                <p class="blog__item--desc">How marketing can help your business more than anything.</p>
+                <p class="blog__date">JANUARY 29, 2022</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="body">
+        <div class="footer__form">
+          <h2 class="footer__title">Sign up for our newsletter</h2>
+          <form action="" class="relative">
+            <input type="email" class="input_form" placeholder="Enter your email...">
+            <svg class="submit__form" xmlns="http://www.w3.org/2000/svg" width="28" height="18" viewBox="0 0 28 18"
+              fill="none">
+              <path d="M1 9H27M27 9L18.3333 1M27 9L18.3333 17" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </form>
+          <div class="footer__socials">
+            <div class="social__item"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="social__item"><i class="fa-brands fa-instagram"></i></div>
+            <div class="social__item"><i class="fa-brands fa-twitter"></i></div>
+          </div>
+        </div>
+        <ul class="footer__links">
+          <li>
+            <h3 class="footer__link--title">Pages</h3>
+            <ul class="footer__sub--link">
+              <li>Home</li>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Blog Post</li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="footer__link--title">Product</h3>
+            <ul class="footer__sub--link">
+              <li>Home</li>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Blog Post</li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="footer__link--title">Overview</h3>
+            <ul class="footer__sub--link">
+              <li>Home1</li>
+              <li>Home2</li>
+              <li>Home3</li>
+              <li>Pricing1</li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="footer__link--title">About us</h3>
+            <ul class="footer__sub--link">
+              <li>Team</li>
+              <li>Investors</li>
+              <li>Blog</li>
+              <li>Press</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__hr"></div>
+    </div>
+  </footer>
+</body>
+
+</html>
